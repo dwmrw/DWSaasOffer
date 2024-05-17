@@ -26,7 +26,7 @@ Function String-Between
 $ErrorActionPreference = "Stop"
 $WebAppNameAdmin=$WebAppNamePrefix+"-admin"
 $WebAppNamePortal=$WebAppNamePrefix+"-portal"
-$KeyVault=$WebAppNamePrefix+"-saaskv"
+$KeyVault=$WebAppNamePrefix+"-kv"
 
 #### THIS SECTION DEPLOYS CODE AND DATABASE CHANGES
 Write-host "#### Deploying new database ####" 
