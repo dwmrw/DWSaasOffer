@@ -51,7 +51,7 @@ if($KeyVault -eq "")
 # User did not define KeyVault, so we will create one. 
 # We need to check if the KeyVault already exists or purge before going forward
 
-   $KeyVault=$WebAppNamePrefix+"-kv"
+   $KeyVault=$WebAppNamePrefix+"-saaskv"
 
    # Check if the KeyVault exists under resource group
    $kv_check=$(az keyvault show -n $KeyVault -g $ResourceGroupForDeployment) 2>$null    
